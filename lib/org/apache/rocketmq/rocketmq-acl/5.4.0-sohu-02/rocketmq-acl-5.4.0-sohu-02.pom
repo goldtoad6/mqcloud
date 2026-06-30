@@ -14,8 +14,8 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.apache.rocketmq</groupId>
   <artifactId>rocketmq-acl</artifactId>
-  <version>5.4.0-sohu-01</version>
-  <name>rocketmq-acl 5.4.0-sohu-01</name>
+  <version>5.4.0-sohu-02</version>
+  <name>rocketmq-acl 5.4.0-sohu-02</name>
   <description>The Apache Software Foundation provides support for the Apache community of open-source software projects.
     The Apache projects are characterized by a collaborative, consensus based development process, an open and
     pragmatic software license, and a desire to create high quality software that leads the way in its field.
@@ -86,19 +86,19 @@
     <dependency>
       <groupId>org.apache.rocketmq</groupId>
       <artifactId>rocketmq-remoting</artifactId>
-      <version>5.4.0-sohu-01</version>
+      <version>5.4.0-sohu-02</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.rocketmq</groupId>
       <artifactId>rocketmq-common</artifactId>
-      <version>5.4.0-sohu-01</version>
+      <version>5.4.0-sohu-02</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.rocketmq</groupId>
       <artifactId>rocketmq-srvutil</artifactId>
-      <version>5.4.0-sohu-01</version>
+      <version>5.4.0-sohu-02</version>
       <scope>compile</scope>
     </dependency>
     <dependency>

@@ -19,15 +19,15 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.apache.rocketmq</groupId>
-  <artifactId>rocketmq-tools</artifactId>
-  <version>5.4.0-sohu-01</version>
-  <name>rocketmq-tools 5.4.0-sohu-01</name>
+  <artifactId>rocketmq-remoting</artifactId>
+  <version>5.4.0-sohu-02</version>
+  <name>rocketmq-remoting 5.4.0-sohu-02</name>
   <description>The Apache Software Foundation provides support for the Apache community of open-source software projects.
     The Apache projects are characterized by a collaborative, consensus based development process, an open and
     pragmatic software license, and a desire to create high quality software that leads the way in its field.
     We consider ourselves not simply a group of projects sharing a server, but rather a community of developers
     and users.</description>
-  <url>http://rocketmq.apache.org/rocketmq-tools/</url>
+  <url>http://rocketmq.apache.org/rocketmq-remoting/</url>
   <inceptionYear>2012</inceptionYear>
   <organization>
     <name>Apache Software Foundation</name>
@@ -68,9 +68,9 @@
     </mailingList>
   </mailingLists>
   <scm>
-    <connection>scm:git:git@github.com:apache/rocketmq.git/rocketmq-tools</connection>
-    <developerConnection>scm:git:git@github.com:apache/rocketmq.git/rocketmq-tools</developerConnection>
-    <url>git@github.com:apache/rocketmq.git/rocketmq-tools</url>
+    <connection>scm:git:git@github.com:apache/rocketmq.git/rocketmq-remoting</connection>
+    <developerConnection>scm:git:git@github.com:apache/rocketmq.git/rocketmq-remoting</developerConnection>
+    <url>git@github.com:apache/rocketmq.git/rocketmq-remoting</url>
   </scm>
   <issueManagement>
     <system>jira</system>
@@ -79,20 +79,8 @@
   <dependencies>
     <dependency>
       <groupId>org.apache.rocketmq</groupId>
-      <artifactId>rocketmq-client</artifactId>
-      <version>5.4.0-sohu-01</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.rocketmq</groupId>
-      <artifactId>rocketmq-acl</artifactId>
-      <version>5.4.0-sohu-01</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.rocketmq</groupId>
-      <artifactId>rocketmq-srvutil</artifactId>
-      <version>5.4.0-sohu-01</version>
+      <artifactId>rocketmq-common</artifactId>
+      <version>5.4.0-sohu-02</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -102,22 +90,10 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>org.yaml</groupId>
-      <artifactId>snakeyaml</artifactId>
-      <version>2.0</version>
+      <groupId>org.reflections</groupId>
+      <artifactId>reflections</artifactId>
+      <version>0.9.11</version>
       <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.google.guava</groupId>
-      <artifactId>guava</artifactId>
-      <version>32.0.1-jre</version>
-      <scope>compile</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>error_prone_annotations</artifactId>
-          <groupId>com.google.errorprone</groupId>
-        </exclusion>
-      </exclusions>
     </dependency>
     <dependency>
       <groupId>org.awaitility</groupId>

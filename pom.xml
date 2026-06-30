@@ -20,7 +20,7 @@
 		<revision>5.4.0</revision>
 		<slf4j.version>1.7.5</slf4j.version>
 		<junit.version>4.13.1</junit.version>
-		<rocketmq.version>5.4.0-sohu-01</rocketmq.version>
+		<rocketmq.version>5.4.0-sohu-02</rocketmq.version>
 		<java.version>1.8</java.version>
 		<protostuff.version>1.5.0</protostuff.version>
 		<logback.version>1.2.13</logback.version>

@@ -20,9 +20,9 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.apache.rocketmq</groupId>
   <artifactId>rocketmq-all</artifactId>
-  <version>5.4.0-sohu-01</version>
+  <version>5.4.0-sohu-02</version>
   <packaging>pom</packaging>
-  <name>Apache RocketMQ 5.4.0-sohu-01</name>
+  <name>Apache RocketMQ 5.4.0-sohu-02</name>
   <description>The Apache Software Foundation provides support for the Apache community of open-source software projects.
     The Apache projects are characterized by a collaborative, consensus based development process, an open and
     pragmatic software license, and a desire to create high quality software that leads the way in its field.
